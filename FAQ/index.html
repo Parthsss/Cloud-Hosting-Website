@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FAQ Collapse</title>
+  </head>
+  <body>
+    <h1>Frequently Asked Questions</h1>
+    
+    <div class="faq-container">
+      <div class="faq">
+        <h3 class="faq-title">
+          What are the benefits of cloud computing?
+        </h3>
+        <p class="faq-text"><b>It's flexible:</b>
+          Due to the architecture of cloud computing, enterprises and their users can access cloud services.<br>
+        <b>It's efficient:</b>
+Enterprises can develop new applications and rapidly get them into production—without worrying about the underlying infrastructure. <br>
+<b>It's secure:</b> Cloud computing security is generally recognized as stronger than that in enterprise data centers, because of the depth and breadth of the security mechanisms cloud providers put into place. <br>
+
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">
+          What are the types of cloud computing services?
+        </h3>
+        <p class="faq-text"><b>Infrastructure as a service (IaaS):</b>
+          Infrastructure as a service (IaaS) offers on-demand access to IT infrastructure services, including compute, storage, networking, and virtualization. It provides the highest level of control over your IT resources and most closely resembles traditional on-premises IT resources. <br>
+          
+          <b>Platform as a service (PaaS):</b>
+          Platform as a service (PaaS) offers all the hardware and software resources needed for cloud application development. With PaaS, companies can focus fully on application development without the burden of managing and maintaining the underlying infrastructure. <br>
+          
+         <b> Software as a service (SaaS)</b>
+          Software as a service (SaaS) delivers a full application stack as a service, from underlying infrastructure to maintenance and updates to the app software itself. A SaaS solution is often an end-user application, where both the service and the infrastructure is managed and maintained by the cloud service provider.</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq active">
+        <h3 class="faq-title">What is Unit Testing?</h3>
+        <p class="faq-text">Unit testing is the process where you test the smallest functional unit of code. Software testing helps ensure code quality, and it's an integral part of software development. It's a software development best practice to write software as small, functional units then write a unit test for each code unit. You can first write unit tests as code. Then, run that test code automatically every time you make changes in the software code. This way, if a test fails, you can quickly isolate the area of the code that has the bug or error. Unit testing enforces modular thinking paradigms and improves test coverage and quality.
+           Automated unit testing helps ensure you or your developers have more time to concentrate on coding.</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">
+          What is Data Migration?
+        </h3>
+        <p class="faq-text">Data migration is when you move data from one computing environment or storage system to another. Organizations collect and store data for analytics. They have to move data between systems for integrated visualization, due to technology changes or because they want to move operations to the cloud. The goal of data migration is to move data efficiently and quickly to avoid or minimize disrupting business operations. It includes planning for considerations like network resources, data security, and time and transfer methods. 
+          Data migration may also involve storage architecture considerations for factors like missing data values or changing data types.</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">
+          What is a Public Cloud?
+        </h3>
+        <p class="faq-text">A public cloud is a cloud computing model where IT infrastructure like servers, networking, and storage resources are offered as virtual resources accessible over the internet. Traditionally, organizations had to purchase and self-manage the infrastructure required to run applications. It was costly to set up and maintain, and advanced computing capabilities remained beyond the reach of many organizations. The public cloud solved these challenges by making IT resources accessible as fully managed services. 
+
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">
+          What is Data backup?
+        </h3>
+        <p class="faq-text">A data backup is a copy of your system, configuration, or application data that’s stored separately from the original. Sometimes organizations may experience unexpected events like natural disasters, human errors, security events, or system failures. Data backup is a critical data protection function to decrease the risk of full or partial data loss in the case of unexpected events. It offers organizations the ability to restore systems and applications to a previously desired state. </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">What is a Dedicated Server?</h3>
+        <p class="faq-text">A dedicated server is a physical server that's assigned to a single organization. You need a server to host or run your applications and websites so that your users can access your services. The hosting provider manages and maintains the physical server resources and allocates them to different customers. Depending on the type of hosting solution you choose, you may have to share the underlying physical server resources with other organizations. However, in dedicated hosting, you get complete control over how your organization uses the physical server's resources. You get an isolated physical server environment that you can configure and manage as required. A dedicated server is useful for mission-critical applications that require high availability or compute-intensive workloads where the application demands significant server resources.</p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
